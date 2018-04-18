@@ -1,60 +1,15 @@
-# 09 - Dev Tools Domination - JavaScript30 Challenge
+# 10 - Hold Shift and Check Checkboxes - JavaScript30 Challenge
 
 ### Practising:
 
-Console methods
+manipulating the DOM methods. 
 
 ### Notes :
 
-```javascript
-// Testing         -important-
-const p = document.querySelector("p");
-
-console.assert(p.classList.contains("ouch"), "That is wrong!"); // Display only if the argument is false
-```
-
-```javascript
-// clearing
-console.clear();
-```
-
-```javascript
-console.log(p); // log the paragraph HTML element without its attributes
-console.dir(p); // Shows all the props and methods of the element
-```
-
-```javascript
-// Grouping together
-dogs.forEach(dog => {
-  console.groupCollapsed(`${dog.name}`);
-  console.log(`This is ${dog.name}`);
-  console.log(`${dog.name} is ${dog.age} years old`);
-  console.log(`${dog.name} is ${dog.age * 7} dog years old`);
-  console.groupEnd(`${dog.name}`);
-});
-```
-
-```javascript
-// counting     -important-
-console.count("Wes"); // counts the execution number of firing the console.count() and displays the count number beside the string entered  ex. Wes: 1
-console.count("Wes");
-```
-
-```javascript
-// timing       -important-
-console.time("fetching data"); //this is the start of timer
-fetch("https://api.github.com/users/dewiidar")
-  .then(data => data.json())
-  .then(data => {
-    console.timeEnd("fetching data"); //this is the start of timer
-    console.log(data);
-  });
-```
-
-```javascript
-// table
-console.table(dogs);
-```
+Before designing anything, write notes of what you want to do!
+Then do it one step at a time.
+A breakdown the code to smaller pieces.
+And remember to write dry code.
 
 ## Getting Started
 
